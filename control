@@ -1,0 +1,9 @@
+Package: com.withertech.filzamt
+Name: Filza Matrix Theme
+Author: WitherTech
+Description: Black and green theme for Filza
+Depends: mobilesubstrate
+Maintainer: WitherTech
+Architecture: iphoneos-arm
+Section: Tweaks
+Version: 0.0.1
