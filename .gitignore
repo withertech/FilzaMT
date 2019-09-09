@@ -7,6 +7,7 @@
 *.deb
 .debmake
 _
+packages
 obj
 .theos
 .DS_Store
