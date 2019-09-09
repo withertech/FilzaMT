@@ -18,7 +18,7 @@
 			<key>defaults</key>
 			<string>com.withertech.filzamtprefs</string>
 			<key>key</key>
-			<string>enabled</string>
+			<string>isEnabled</string>
 			<key>label</key>
 			<string>Enabled</string>
 		</dict>
