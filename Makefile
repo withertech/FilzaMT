@@ -5,3 +5,5 @@ FilzaMatrixTheme_FILES = Tweak.xm
 FilzaMatrixTheme_FRAMEWORKS = UIKit
 
 include $(THEOS_MAKE_PATH)/tweak.mk
+SUBPROJECTS += filzamtprefs
+include $(THEOS_MAKE_PATH)/aggregate.mk
