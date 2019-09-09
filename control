@@ -4,6 +4,8 @@ Author: WitherTech
 Description: Black and green theme for Filza
 Depends: mobilesubstrate
 Maintainer: WitherTech
+Depiction: http://repo.withertech.com/depictions/?p=com.withertech.filzamt
 Architecture: iphoneos-arm
 Section: Tweaks
-Version: 0.0.1
+Version: 0.0.1-1+debug
+Installed-Size: 200
