@@ -8,22 +8,22 @@
 			<key>cell</key>
 			<string>PSGroupCell</string>
 			<key>label</key>
-			<string>FilzaMTPrefs First Page</string>
+			<string>Filza Matrix Theme Preferences</string>
 		</dict>
 		<dict>
 			<key>cell</key>
 			<string>PSSwitchCell</string>
 			<key>default</key>
-			<true/>
+			<false/>
 			<key>defaults</key>
 			<string>com.withertech.filzamtprefs</string>
 			<key>key</key>
-			<string>AwesomeSwitch1</string>
+			<string>enabled</string>
 			<key>label</key>
-			<string>Awesome Switch 1</string>
+			<string>Enabled</string>
 		</dict>
 	</array>
 	<key>title</key>
-	<string>FilzaMTPrefs</string>
+	<string>Filza Matrix Theme</string>
 </dict>
 </plist>
