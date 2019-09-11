@@ -9,6 +9,12 @@
                 "kind": "build",
                 "isDefault": true
             }
+        },
+        {
+            "label": "build & install",
+            "type": "shell",
+            "command": "make package install",
+            "group": "build"
         }
     ]
 }
