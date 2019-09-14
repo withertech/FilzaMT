@@ -39,7 +39,7 @@
 %end
 
 %ctor {
-    NSDictionary *bundleDefaults = [[NSUserDefaults standardUserDefaults]persistentDomainForName:@"com.withertech.filzamtprefs"];
+    NSDictionary *bundleDefaults = [[NSUserDefaults standardUserDefaults]persistentDomainForName:@"com.withertech.filzatmprefs"];
     
     id isEnabled = [bundleDefaults valueForKey:@"isEnabled"];
     if ([isEnabled isEqual:@1]) {

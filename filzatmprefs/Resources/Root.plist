@@ -8,7 +8,7 @@
 			<key>cell</key>
 			<string>PSGroupCell</string>
 			<key>label</key>
-			<string>Filza Matrix Theme Preferences</string>
+			<string>Filza Theme Manager Preferences</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -16,14 +16,24 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.withertech.filzamtprefs</string>
+			<string>com.withertech.filzatmprefs</string>
 			<key>key</key>
 			<string>isEnabled</string>
 			<key>label</key>
 			<string>Enabled</string>
 		</dict>
+		<dict>
+			<key>isController</key>
+			<true/>
+			<key>detail</key>
+			<string>FTMBackgroundListController</string>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>Background Color</string>
+		</dict>
 	</array>
 	<key>title</key>
-	<string>Filza Matrix Theme</string>
+	<string>Filza Theme Manager</string>
 </dict>
 </plist>

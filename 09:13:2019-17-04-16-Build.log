@@ -1,0 +1,20 @@
+[1;31m> [1;3;39mMaking all for tweak FilzaThemeManager…[m
+[0;33m==> [1;33mWarning:[m No files to link. Please check your Makefile! Make sure you set FilzaThemeManager_FILES (or similar variables)
+[0;33m==> [1;39mLinking tweak FilzaThemeManager (armv7)…[m
+[0;34m==> [1;39mGenerating debug symbols for FilzaThemeManager…[m
+[0;33m==> [1;33mWarning:[m No files to link. Please check your Makefile! Make sure you set FilzaThemeManager_FILES (or similar variables)
+[0;33m==> [1;39mLinking tweak FilzaThemeManager (arm64)…[m
+[0;34m==> [1;39mGenerating debug symbols for FilzaThemeManager…[m
+[0;33m==> [1;33mWarning:[m No files to link. Please check your Makefile! Make sure you set FilzaThemeManager_FILES (or similar variables)
+[0;33m==> [1;39mLinking tweak FilzaThemeManager (arm64e)…[m
+[0;34m==> [1;39mGenerating debug symbols for FilzaThemeManager…[m
+[0;34m==> [1;39mMerging tweak FilzaThemeManager…[m
+[0;34m==> [1;39mSigning FilzaThemeManager…[m
+[1;31m> [1;3;39mMaking all in filzamtprefs…[m
+[1;31m> [1;3;39mMaking all for bundle FilzaTMPrefs…[m
+[0;35m==> [1;39mCopying resource directories into the bundle wrapper…[m
+[0;33m==> [1;33mWarning:[m No files to link - creating a bundle containing only resources
+[1;31m> [1;3;39mMaking stage for tweak FilzaThemeManager…[m
+[1;31m> [1;3;39mMaking stage in filzamtprefs…[m
+[1;31m> [1;3;39mMaking stage for bundle FilzaTMPrefs…[m
+dm.pl: building package `com.withertech.filzatm:iphoneos-arm' in `./packages/com.withertech.filzatm_0.0.3-1+debug_iphoneos-arm.deb'

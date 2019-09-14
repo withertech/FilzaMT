@@ -1,6 +1,6 @@
-#include "ftmRootListController.h"
+#include "FTMRootListController.h"
 
-@implementation ftmRootListController
+@implementation FTMRootListController
 
 - (NSArray *)specifiers {
 	if (!_specifiers) {

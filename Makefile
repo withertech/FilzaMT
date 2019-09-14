@@ -1,9 +1,7 @@
 include $(THEOS)/makefiles/common.mk
 
-TWEAK_NAME = FilzaMatrixTheme
+TWEAK_NAME = FilzaThemeManager
 FilzaMatrixTheme_FILES = Tweak.xm
 FilzaMatrixTheme_FRAMEWORKS = UIKit
-
-include $(THEOS_MAKE_PATH)/tweak.mk
-SUBPROJECTS += filzamtprefs
+SUBPROJECTS += filzatmprefs
 include $(THEOS_MAKE_PATH)/aggregate.mk

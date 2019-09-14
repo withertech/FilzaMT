@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		C83744C1232C676900404790 /* filzatmprefs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = filzatmprefs; sourceTree = "<group>"; };
 		C863A5F4232C04B100418D5C /* .vscode */ = {isa = PBXFileReference; lastKnownFileType = folder; path = .vscode; sourceTree = "<group>"; };
 		C863A5F5232C04B100418D5C /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		C863A5F6232C04B100418D5C /* filzamtprefs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = filzamtprefs; sourceTree = "<group>"; };
-		C863A5F7232C04B100418D5C /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		C863A5F7232C04B100418D5C /* Makefile */ = {isa = PBXFileReference; explicitFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 		C863A5F8232C04B100418D5C /* control */ = {isa = PBXFileReference; lastKnownFileType = text; path = control; sourceTree = "<group>"; };
 		C863A5F9232C04B100418D5C /* .git */ = {isa = PBXFileReference; lastKnownFileType = folder; path = .git; sourceTree = "<group>"; };
-		C863A5FA232C04B100418D5C /* FilzaMatrixTheme.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = FilzaMatrixTheme.plist; sourceTree = "<group>"; };
-		C863A5FB232C04B100418D5C /* Tweak.xm */ = {isa = PBXFileReference; lastKnownFileType = text; path = Tweak.xm; sourceTree = "<group>"; };
+		C863A5FA232C04B100418D5C /* FilzaThemeManager.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = FilzaThemeManager.plist; sourceTree = "<group>"; };
+		C863A5FB232C04B100418D5C /* Tweak.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; path = Tweak.xm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.logos; };
 		C863A610232C0C8900418D5C /* Build.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = Build.sh; sourceTree = "<group>"; };
 		C863A611232C0C8900418D5C /* Install.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = Install.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -27,12 +27,12 @@
 				C863A5F5232C04B100418D5C /* .gitignore */,
 				C863A5F4232C04B100418D5C /* .vscode */,
 				C863A5F8232C04B100418D5C /* control */,
-				C863A5FA232C04B100418D5C /* FilzaMatrixTheme.plist */,
-				C863A5F6232C04B100418D5C /* filzamtprefs */,
+				C863A5FA232C04B100418D5C /* FilzaThemeManager.plist */,
 				C863A5F7232C04B100418D5C /* Makefile */,
 				C863A5FB232C04B100418D5C /* Tweak.xm */,
 				C863A610232C0C8900418D5C /* Build.sh */,
 				C863A611232C0C8900418D5C /* Install.sh */,
+				C83744C1232C676900404790 /* filzatmprefs */,
 			);
 			sourceTree = "<group>";
 		};
