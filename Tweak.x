@@ -1,18 +1,22 @@
 #import <UIKit/UIKit.h>
 
-//#define PLIST_PATH @"/var/mobile/Library/Preferences/com.withertech.filzatmprefs.plist"     //here the name of your .plist (it's stored in the "Resources" folder)
-//
-//inline bool GetPrefBool(NSString *key)
-//{
-//    return [[[NSDictionary dictionaryWithContentsOfFile:PLIST_PATH] valueForKey:key] boolValue];
-//}
-//
 %group enabled
-//if(GetPrefBool(@"isEnabled")) {
-
+NSDictionary *bundleDefaults = [[NSUserDefaults standardUserDefaults]persistentDomainForName:@"com.withertech.filzatmprefs"];
 %hook ThemeManager
 - (id)background {
-return [UIColor colorWithRed:0/255.0 green:0/255.0 blue:0/255.0 alpha:63/255.0];
+id BackgroundColorRed = [bundleDefaults valueForKey:@"BackgroundColorRed"];
+NSString * BackgroundColorRedS = BackgroundColorRed;
+float BackgroundColorRedF = [BackgroundColorRedS floatValue];
+id BackgroundColorGreen = [bundleDefaults valueForKey:@"BackgroundColorGreen"];
+NSString * BackgroundColorGreenS = BackgroundColorGreen;
+float BackgroundColorGreenF = [BackgroundColorGreenS floatValue];
+id BackgroundColorBlue = [bundleDefaults valueForKey:@"BackgroundColorBlue"];
+NSString * BackgroundColorBlueS = BackgroundColorBlue;
+float BackgroundColorBlueF = [BackgroundColorBlueS floatValue];
+id BackgroundColorAlpha = [bundleDefaults valueForKey:@"BackgroundColorAlpha"];
+NSString * BackgroundColorAlphaS = BackgroundColorAlpha;
+float BackgroundColorAlphaF = [BackgroundColorAlphaS floatValue];
+return [UIColor colorWithRed:BackgroundColorRedF/255.0 green:BackgroundColorGreenF/255.0 blue:BackgroundColorBlueF/255.0 alpha:BackgroundColorAlphaF/255.0];
 }
 %end
 
@@ -45,7 +49,7 @@ return [UIColor colorWithRed:0/255.0 green:255/255.0 blue:0/255.0 alpha:255/255.
 return [UIColor colorWithRed:34/255.0 green:34/255.0 blue:34/255.0 alpha:255/255.0];
 }
 %end
-//}
+
 %end
 
 %ctor {

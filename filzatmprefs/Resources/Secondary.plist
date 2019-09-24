@@ -14,11 +14,11 @@
 			<key>cell</key>
 			<string>PSSliderCell</string>
 			<key>default</key>
-			<string>0</string>
+			<string>34</string>
 			<key>defaults</key>
 			<string>com.withertech.filzatmprefs</string>
 			<key>key</key>
-			<string>BackgroundColorRed</string>
+			<string>SecondaryColorRed</string>
 			<key>max</key>
 			<integer>255</integer>
 			<key>min</key>
@@ -36,11 +36,11 @@
 			<key>cell</key>
 			<string>PSSliderCell</string>
 			<key>default</key>
-			<string>0</string>
+			<string>34</string>
 			<key>defaults</key>
 			<string>com.withertech.filzatmprefs</string>
 			<key>key</key>
-			<string>BackgroundColorGreen</string>
+			<string>SecondaryColorGreen</string>
 			<key>max</key>
 			<integer>255</integer>
 			<key>min</key>
@@ -58,11 +58,11 @@
 			<key>cell</key>
 			<string>PSSliderCell</string>
 			<key>default</key>
-			<string>0</string>
+			<string>34</string>
 			<key>defaults</key>
 			<string>com.withertech.filzatmprefs</string>
 			<key>key</key>
-			<string>BackgroundColorBlue</string>
+			<string>SecondaryColorBlue</string>
 			<key>max</key>
 			<integer>255</integer>
 			<key>min</key>
@@ -80,11 +80,11 @@
 			<key>cell</key>
 			<string>PSSliderCell</string>
 			<key>default</key>
-			<string>63</string>
+			<string>255</string>
 			<key>defaults</key>
 			<string>com.withertech.filzatmprefs</string>
 			<key>key</key>
-			<string>BackgroundColorAlpha</string>
+			<string>SecondaryColorAlpha</string>
 			<key>max</key>
 			<integer>255</integer>
 			<key>min</key>
@@ -94,6 +94,6 @@
 		</dict>
 	</array>
 	<key>title</key>
-	<string>Filza Theme Manager Background Color</string>
+	<string>Filza Theme Manager Secondary Color</string>
 </dict>
 </plist>

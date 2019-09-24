@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Filza Theme Manager Color Preferences</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>detail</key>
+			<string>FTMBackgroundListController</string>
+			<key>isController</key>
+			<true/>
+			<key>label</key>
+			<string>Background Color</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>detail</key>
+			<string>FTMBarBackgroundListController</string>
+			<key>isController</key>
+			<true/>
+			<key>label</key>
+			<string>Bar Background Color</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>detail</key>
+			<string>FTMLightGrayListController</string>
+			<key>isController</key>
+			<true/>
+			<key>label</key>
+			<string>Light Gray Color</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>detail</key>
+			<string>FTMSecondaryListController</string>
+			<key>isController</key>
+			<true/>
+			<key>label</key>
+			<string>Secondary Color</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>detail</key>
+			<string>FTMTextListController</string>
+			<key>isController</key>
+			<true/>
+			<key>label</key>
+			<string>Text Color</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>detail</key>
+			<string>FTMSelectedListController</string>
+			<key>isController</key>
+			<true/>
+			<key>label</key>
+			<string>Selected Color</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Filza Theme Manager Colors</string>
+</dict>
+</plist>

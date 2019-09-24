@@ -2,7 +2,7 @@ include $(THEOS)/makefiles/common.mk
 
 BUNDLE_NAME = filzatmprefs
 
-filzatmprefs_FILES = FTMRootListController.m FTMBackgroundListController.m
+filzatmprefs_FILES = FTMRootListController.m FTMBackgroundListController.m FTMBarBackgroundListController.m FTMLightGrayListController.m FTMSecondaryListController.m FTMTextListController.m FTMSelectedListController.m FTMColorsListController.m
 filzatmprefs_INSTALL_PATH = /Library/PreferenceBundles
 filzatmprefs_FRAMEWORKS = UIKit
 filzatmprefs_PRIVATE_FRAMEWORKS = Preferences

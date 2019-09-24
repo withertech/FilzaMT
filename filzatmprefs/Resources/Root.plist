@@ -22,24 +22,24 @@
 			<key>label</key>
 			<string>Enabled</string>
 		</dict>
-        <dict>
-            <key>isController</key>
-            <true/>
-            <key>detail</key>
-            <string>FTMBackgroundListController</string>
-            <key>cell</key>
-            <string>PSLinkCell</string>
-            <key>label</key>
-            <string>Background Color</string>
-        </dict>
-        <dict>
-            <key>cell</key>
-            <string>PSButtonCell</string>
-            <key>label</key>
-            <string>Respring</string>
-            <key>action</key>
-            <string>respring</string>
-        </dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>detail</key>
+			<string>FTMColorsListController</string>
+			<key>isController</key>
+			<true/>
+			<key>label</key>
+			<string>Colors</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>respring</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Respring</string>
+		</dict>
 	</array>
 	<key>title</key>
 	<string>Filza Theme Manager</string>
