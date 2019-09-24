@@ -7,32 +7,32 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		C83744C1232C676900404790 /* filzatmprefs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = filzatmprefs; sourceTree = "<group>"; };
-		C863A5F4232C04B100418D5C /* .vscode */ = {isa = PBXFileReference; lastKnownFileType = folder; path = .vscode; sourceTree = "<group>"; };
-		C863A5F5232C04B100418D5C /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		C863A5F7232C04B100418D5C /* Makefile */ = {isa = PBXFileReference; explicitFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		C863A5F8232C04B100418D5C /* control */ = {isa = PBXFileReference; lastKnownFileType = text; path = control; sourceTree = "<group>"; };
-		C863A5F9232C04B100418D5C /* .git */ = {isa = PBXFileReference; lastKnownFileType = folder; path = .git; sourceTree = "<group>"; };
-		C863A5FA232C04B100418D5C /* FilzaThemeManager.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = FilzaThemeManager.plist; sourceTree = "<group>"; };
-		C863A5FB232C04B100418D5C /* Tweak.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; path = Tweak.xm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.logos; };
-		C863A610232C0C8900418D5C /* Build.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = Build.sh; sourceTree = "<group>"; };
-		C863A611232C0C8900418D5C /* Install.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = Install.sh; sourceTree = "<group>"; };
+		C8513BB72339AEE300471AB8 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		C8513BB82339AEE400471AB8 /* FilzaThemeManager.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = FilzaThemeManager.plist; sourceTree = "<group>"; };
+		C8513BB92339AEE400471AB8 /* .vscode */ = {isa = PBXFileReference; lastKnownFileType = folder; path = .vscode; sourceTree = "<group>"; };
+		C8513BBA2339AEE400471AB8 /* filzatmprefs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = filzatmprefs; sourceTree = "<group>"; };
+		C8513BBB2339AEE400471AB8 /* Install.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = Install.sh; sourceTree = "<group>"; };
+		C8513BBC2339AEE400471AB8 /* .git */ = {isa = PBXFileReference; lastKnownFileType = folder; path = .git; sourceTree = "<group>"; };
+		C8513BBD2339AEE400471AB8 /* Tweak.x */ = {isa = PBXFileReference; lastKnownFileType = text; path = Tweak.x; sourceTree = "<group>"; };
+		C8513BBE2339AEE400471AB8 /* Build.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = Build.sh; sourceTree = "<group>"; };
+		C8513BBF2339AEE400471AB8 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		C8513BC02339AEE500471AB8 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; path = control; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		C863A5E8232C035700418D5C = {
 			isa = PBXGroup;
 			children = (
-				C863A5F9232C04B100418D5C /* .git */,
-				C863A5F5232C04B100418D5C /* .gitignore */,
-				C863A5F4232C04B100418D5C /* .vscode */,
-				C863A5F8232C04B100418D5C /* control */,
-				C863A5FA232C04B100418D5C /* FilzaThemeManager.plist */,
-				C863A5F7232C04B100418D5C /* Makefile */,
-				C863A5FB232C04B100418D5C /* Tweak.xm */,
-				C863A610232C0C8900418D5C /* Build.sh */,
-				C863A611232C0C8900418D5C /* Install.sh */,
-				C83744C1232C676900404790 /* filzatmprefs */,
+				C8513BBC2339AEE400471AB8 /* .git */,
+				C8513BB72339AEE300471AB8 /* .gitignore */,
+				C8513BB92339AEE400471AB8 /* .vscode */,
+				C8513BBE2339AEE400471AB8 /* Build.sh */,
+				C8513BC02339AEE500471AB8 /* control */,
+				C8513BB82339AEE400471AB8 /* FilzaThemeManager.plist */,
+				C8513BBA2339AEE400471AB8 /* filzatmprefs */,
+				C8513BBB2339AEE400471AB8 /* Install.sh */,
+				C8513BBF2339AEE400471AB8 /* Makefile */,
+				C8513BBD2339AEE400471AB8 /* Tweak.x */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,7 +84,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C863A5EC232C035700418D5C /* Build configuration list for PBXProject "filzamt" */;
+			buildConfigurationList = C863A5EC232C035700418D5C /* Build configuration list for PBXProject "filzatm" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -260,7 +260,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C863A5EC232C035700418D5C /* Build configuration list for PBXProject "filzamt" */ = {
+		C863A5EC232C035700418D5C /* Build configuration list for PBXProject "filzatm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C863A5EE232C035700418D5C /* Debug */,
