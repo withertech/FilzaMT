@@ -13,10 +13,10 @@
 		C8513BBA2339AEE400471AB8 /* filzatmprefs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = filzatmprefs; sourceTree = "<group>"; };
 		C8513BBB2339AEE400471AB8 /* Install.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = Install.sh; sourceTree = "<group>"; };
 		C8513BBC2339AEE400471AB8 /* .git */ = {isa = PBXFileReference; lastKnownFileType = folder; path = .git; sourceTree = "<group>"; };
-		C8513BBD2339AEE400471AB8 /* Tweak.x */ = {isa = PBXFileReference; lastKnownFileType = text; path = Tweak.x; sourceTree = "<group>"; };
+		C8513BBD2339AEE400471AB8 /* Tweak.x */ = {isa = PBXFileReference; lastKnownFileType = text; path = Tweak.x; sourceTree = "<group>"; usesTabs = 1; xcLanguageSpecificationIdentifier = xcode.lang.logos; };
 		C8513BBE2339AEE400471AB8 /* Build.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = Build.sh; sourceTree = "<group>"; };
 		C8513BBF2339AEE400471AB8 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		C8513BC02339AEE500471AB8 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; path = control; sourceTree = "<group>"; };
+		C8513BC02339AEE500471AB8 /* control */ = {isa = PBXFileReference; explicitFileType = sourcecode.make; path = control; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -45,8 +45,8 @@
 			buildConfigurationList = C863A609232C06B600418D5C /* Build configuration list for PBXLegacyTarget "Build" */;
 			buildPhases = (
 			);
-			buildToolPath = /Users/witherking25/TweakDev/filzamt/Build.sh;
-			buildWorkingDirectory = /Users/witherking25/TweakDev/filzamt;
+			buildToolPath = /Users/witherking25/TweakDev/filzatm/Build.sh;
+			buildWorkingDirectory = /Users/witherking25/TweakDev/filzatm;
 			dependencies = (
 			);
 			name = Build;
@@ -55,12 +55,12 @@
 		};
 		C863A60C232C06F700418D5C /* Install */ = {
 			isa = PBXLegacyTarget;
-			buildArgumentsString = "$(ACTION)";
+			buildArgumentsString = "";
 			buildConfigurationList = C863A60D232C06F700418D5C /* Build configuration list for PBXLegacyTarget "Install" */;
 			buildPhases = (
 			);
-			buildToolPath = /Users/witherking25/TweakDev/filzamt/Install.sh;
-			buildWorkingDirectory = "";
+			buildToolPath = /Users/witherking25/TweakDev/filzatm/Install.sh;
+			buildWorkingDirectory = /Users/witherking25/TweakDev/filzatm;
 			dependencies = (
 			);
 			name = Install;
