@@ -16,7 +16,7 @@
 		C8513BBD2339AEE400471AB8 /* Tweak.x */ = {isa = PBXFileReference; lastKnownFileType = text; path = Tweak.x; sourceTree = "<group>"; usesTabs = 1; xcLanguageSpecificationIdentifier = xcode.lang.logos; };
 		C8513BBE2339AEE400471AB8 /* Build.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = Build.sh; sourceTree = "<group>"; };
 		C8513BBF2339AEE400471AB8 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		C8513BC02339AEE500471AB8 /* control */ = {isa = PBXFileReference; explicitFileType = sourcecode.make; path = control; sourceTree = "<group>"; };
+		C8513BC02339AEE500471AB8 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; path = control; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
