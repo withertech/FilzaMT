@@ -1,6 +1,6 @@
 Package: com.withertech.filzatm
 Name: Filza Theme Manager
-Author: WitherTech
+Author: WitherTech <witherking@withertech.com>
 Description: Theme Manager for Filza
 Depends: mobilesubstrate com.tigisoftware.Filza
 Maintainer: WitherTech
