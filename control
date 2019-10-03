@@ -2,7 +2,7 @@ Package: com.withertech.filzatm
 Name: Filza Theme Manager
 Author: WitherTech
 Description: Theme Manager for Filza
-Depends: mobilesubstrate
+Depends: mobilesubstrate com.tigisoftware.Filza
 Maintainer: WitherTech
 Depiction: http://repo.withertech.com/depictions/?p=com.withertech.filzatm
 Architecture: iphoneos-arm
